@@ -35,7 +35,7 @@ function getIssueUrlSummaryText() {
     let key = issueKeyNode.innerText
     let url = issueKeyNode.href
     let summary = summaryNode.innerText
-    return `${url} ${summary}`
+    return `[${key}](${url})`
 }
 
 function copyIssueToClipboard() {

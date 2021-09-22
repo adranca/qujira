@@ -11,9 +11,7 @@
 		52ACB99925652FD700B28166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ACB99725652FD700B28166 /* Main.storyboard */; };
 		52ACB99B25652FD700B28166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACB99A25652FD700B28166 /* ViewController.swift */; };
 		52ACB99D25652FD900B28166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ACB99C25652FD900B28166 /* Assets.xcassets */; };
-		52ACB9A825652FD900B28166 /* Jira_Title_CopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACB9A725652FD900B28166 /* Jira_Title_CopyTests.swift */; };
-		52ACB9B325652FD900B28166 /* Jira_Title_CopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACB9B225652FD900B28166 /* Jira_Title_CopyUITests.swift */; };
-		52ACB9BA25652FD900B28166 /* Jira Title Copy Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52ACB9B925652FD900B28166 /* Jira Title Copy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52ACB9BA25652FD900B28166 /* JIRA id URL copy extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52ACB9B925652FD900B28166 /* JIRA id URL copy extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52ACB9BF25652FD900B28166 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ACB9BE25652FD900B28166 /* Cocoa.framework */; };
 		52ACB9C225652FD900B28166 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACB9C125652FD900B28166 /* SafariWebExtensionHandler.swift */; };
 		52ACB9C525652FD900B28166 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 52ACB9C425652FD900B28166 /* _locales */; };
@@ -28,20 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52ACB9A425652FD900B28166 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ACB98925652FD700B28166 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ACB99025652FD700B28166;
-			remoteInfo = "Jira Title Copy";
-		};
-		52ACB9AF25652FD900B28166 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ACB98925652FD700B28166 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ACB99025652FD700B28166;
-			remoteInfo = "Jira Title Copy";
-		};
 		52ACB9BB25652FD900B28166 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52ACB98925652FD700B28166 /* Project object */;
@@ -58,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				52ACB9BA25652FD900B28166 /* Jira Title Copy Extension.appex in Embed App Extensions */,
+				52ACB9BA25652FD900B28166 /* JIRA id URL copy extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,20 +50,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52ACB99125652FD700B28166 /* Jira Title Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jira Title Copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ACB99125652FD700B28166 /* JIRA id URL copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JIRA id URL copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ACB99425652FD700B28166 /* Jira_Title_Copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jira_Title_Copy.entitlements; sourceTree = "<group>"; };
 		52ACB99525652FD700B28166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52ACB99825652FD700B28166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52ACB99A25652FD700B28166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52ACB99C25652FD900B28166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52ACB99E25652FD900B28166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52ACB9A325652FD900B28166 /* Jira Title CopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jira Title CopyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52ACB9A725652FD900B28166 /* Jira_Title_CopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jira_Title_CopyTests.swift; sourceTree = "<group>"; };
-		52ACB9A925652FD900B28166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52ACB9AE25652FD900B28166 /* Jira Title CopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jira Title CopyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52ACB9B225652FD900B28166 /* Jira_Title_CopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jira_Title_CopyUITests.swift; sourceTree = "<group>"; };
-		52ACB9B425652FD900B28166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52ACB9B925652FD900B28166 /* Jira Title Copy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Jira Title Copy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ACB9B925652FD900B28166 /* JIRA id URL copy extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JIRA id URL copy extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ACB9BE25652FD900B28166 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		52ACB9C125652FD900B28166 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		52ACB9C425652FD900B28166 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
@@ -103,20 +81,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52ACB9A025652FD900B28166 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52ACB9AB25652FD900B28166 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52ACB9B625652FD900B28166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				52ACB99325652FD700B28166 /* Jira Title Copy */,
-				52ACB9A625652FD900B28166 /* Jira Title CopyTests */,
-				52ACB9B125652FD900B28166 /* Jira Title CopyUITests */,
 				52ACB9C025652FD900B28166 /* Jira Title Copy Extension */,
 				52ACB9BD25652FD900B28166 /* Frameworks */,
 				52ACB99225652FD700B28166 /* Products */,
@@ -143,10 +105,8 @@
 		52ACB99225652FD700B28166 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52ACB99125652FD700B28166 /* Jira Title Copy.app */,
-				52ACB9A325652FD900B28166 /* Jira Title CopyTests.xctest */,
-				52ACB9AE25652FD900B28166 /* Jira Title CopyUITests.xctest */,
-				52ACB9B925652FD900B28166 /* Jira Title Copy Extension.appex */,
+				52ACB99125652FD700B28166 /* JIRA id URL copy.app */,
+				52ACB9B925652FD900B28166 /* JIRA id URL copy extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,24 +122,6 @@
 				52ACB99E25652FD900B28166 /* Info.plist */,
 			);
 			path = "Jira Title Copy";
-			sourceTree = "<group>";
-		};
-		52ACB9A625652FD900B28166 /* Jira Title CopyTests */ = {
-			isa = PBXGroup;
-			children = (
-				52ACB9A725652FD900B28166 /* Jira_Title_CopyTests.swift */,
-				52ACB9A925652FD900B28166 /* Info.plist */,
-			);
-			path = "Jira Title CopyTests";
-			sourceTree = "<group>";
-		};
-		52ACB9B125652FD900B28166 /* Jira Title CopyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52ACB9B225652FD900B28166 /* Jira_Title_CopyUITests.swift */,
-				52ACB9B425652FD900B28166 /* Info.plist */,
-			);
-			path = "Jira Title CopyUITests";
 			sourceTree = "<group>";
 		};
 		52ACB9BD25652FD900B28166 /* Frameworks */ = {
@@ -220,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52ACB99025652FD700B28166 /* Jira Title Copy */ = {
+		52ACB99025652FD700B28166 /* JIRA id URL copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52ACB9DC25652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title Copy" */;
+			buildConfigurationList = 52ACB9DC25652FD900B28166 /* Build configuration list for PBXNativeTarget "JIRA id URL copy" */;
 			buildPhases = (
 				52ACB98D25652FD700B28166 /* Sources */,
 				52ACB98E25652FD700B28166 /* Frameworks */,
@@ -234,50 +176,14 @@
 			dependencies = (
 				52ACB9BC25652FD900B28166 /* PBXTargetDependency */,
 			);
-			name = "Jira Title Copy";
+			name = "JIRA id URL copy";
 			productName = "Jira Title Copy";
-			productReference = 52ACB99125652FD700B28166 /* Jira Title Copy.app */;
+			productReference = 52ACB99125652FD700B28166 /* JIRA id URL copy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52ACB9A225652FD900B28166 /* Jira Title CopyTests */ = {
+		52ACB9B825652FD900B28166 /* JIRA id URL copy extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52ACB9DF25652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title CopyTests" */;
-			buildPhases = (
-				52ACB99F25652FD900B28166 /* Sources */,
-				52ACB9A025652FD900B28166 /* Frameworks */,
-				52ACB9A125652FD900B28166 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52ACB9A525652FD900B28166 /* PBXTargetDependency */,
-			);
-			name = "Jira Title CopyTests";
-			productName = "Jira Title CopyTests";
-			productReference = 52ACB9A325652FD900B28166 /* Jira Title CopyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52ACB9AD25652FD900B28166 /* Jira Title CopyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52ACB9E225652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title CopyUITests" */;
-			buildPhases = (
-				52ACB9AA25652FD900B28166 /* Sources */,
-				52ACB9AB25652FD900B28166 /* Frameworks */,
-				52ACB9AC25652FD900B28166 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52ACB9B025652FD900B28166 /* PBXTargetDependency */,
-			);
-			name = "Jira Title CopyUITests";
-			productName = "Jira Title CopyUITests";
-			productReference = 52ACB9AE25652FD900B28166 /* Jira Title CopyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		52ACB9B825652FD900B28166 /* Jira Title Copy Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52ACB9D825652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title Copy Extension" */;
+			buildConfigurationList = 52ACB9D825652FD900B28166 /* Build configuration list for PBXNativeTarget "JIRA id URL copy extension" */;
 			buildPhases = (
 				52ACB9B525652FD900B28166 /* Sources */,
 				52ACB9B625652FD900B28166 /* Frameworks */,
@@ -287,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = "Jira Title Copy Extension";
+			name = "JIRA id URL copy extension";
 			productName = "Jira Title Copy Extension";
-			productReference = 52ACB9B925652FD900B28166 /* Jira Title Copy Extension.appex */;
+			productReference = 52ACB9B925652FD900B28166 /* JIRA id URL copy extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -303,14 +209,6 @@
 				TargetAttributes = {
 					52ACB99025652FD700B28166 = {
 						CreatedOnToolsVersion = 12.2;
-					};
-					52ACB9A225652FD900B28166 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 52ACB99025652FD700B28166;
-					};
-					52ACB9AD25652FD900B28166 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 52ACB99025652FD700B28166;
 					};
 					52ACB9B825652FD900B28166 = {
 						CreatedOnToolsVersion = 12.2;
@@ -330,10 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52ACB99025652FD700B28166 /* Jira Title Copy */,
-				52ACB9A225652FD900B28166 /* Jira Title CopyTests */,
-				52ACB9AD25652FD900B28166 /* Jira Title CopyUITests */,
-				52ACB9B825652FD900B28166 /* Jira Title Copy Extension */,
+				52ACB99025652FD700B28166 /* JIRA id URL copy */,
+				52ACB9B825652FD900B28166 /* JIRA id URL copy extension */,
 			);
 		};
 /* End PBXProject section */
@@ -345,20 +241,6 @@
 			files = (
 				52ACB99D25652FD900B28166 /* Assets.xcassets in Resources */,
 				52ACB99925652FD700B28166 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52ACB9A125652FD900B28166 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52ACB9AC25652FD900B28166 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,22 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52ACB99F25652FD900B28166 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52ACB9A825652FD900B28166 /* Jira_Title_CopyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52ACB9AA25652FD900B28166 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52ACB9B325652FD900B28166 /* Jira_Title_CopyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52ACB9B525652FD900B28166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,19 +283,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52ACB9A525652FD900B28166 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52ACB99025652FD700B28166 /* Jira Title Copy */;
-			targetProxy = 52ACB9A425652FD900B28166 /* PBXContainerItemProxy */;
-		};
-		52ACB9B025652FD900B28166 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52ACB99025652FD700B28166 /* Jira Title Copy */;
-			targetProxy = 52ACB9AF25652FD900B28166 /* PBXContainerItemProxy */;
-		};
 		52ACB9BC25652FD900B28166 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52ACB9B825652FD900B28166 /* Jira Title Copy Extension */;
+			target = 52ACB9B825652FD900B28166 /* JIRA id URL copy extension */;
 			targetProxy = 52ACB9BB25652FD900B28166 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -565,8 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Jira Title Copy Extension/Jira_Title_Copy_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5SY9M45HL4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Jira Title Copy Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -575,7 +432,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-Copy.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drancagrandtech.Jira-Github-ticket-url.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -586,8 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Jira Title Copy Extension/Jira_Title_Copy_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5SY9M45HL4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Jira Title Copy Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,7 +454,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-Copy.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drancagrandtech.Jira-Github-ticket-url.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -612,7 +470,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Jira Title Copy/Jira_Title_Copy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5SY9M45HL4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Jira Title Copy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -620,7 +478,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-Copy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drancagrandtech.Jira-Github-ticket-url";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -635,7 +493,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Jira Title Copy/Jira_Title_Copy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5SY9M45HL4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Jira Title Copy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -643,93 +501,9 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-Copy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drancagrandtech.Jira-Github-ticket-url";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		52ACB9E025652FD900B28166 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Jira Title CopyTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-CopyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jira Title Copy.app/Contents/MacOS/Jira Title Copy";
-			};
-			name = Debug;
-		};
-		52ACB9E125652FD900B28166 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Jira Title CopyTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-CopyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jira Title Copy.app/Contents/MacOS/Jira Title Copy";
-			};
-			name = Release;
-		};
-		52ACB9E325652FD900B28166 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Jira Title CopyUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-CopyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Jira Title Copy";
-			};
-			name = Debug;
-		};
-		52ACB9E425652FD900B28166 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Jira Title CopyUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ionel71089.Jira-Title-CopyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Jira Title Copy";
 			};
 			name = Release;
 		};
@@ -745,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52ACB9D825652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title Copy Extension" */ = {
+		52ACB9D825652FD900B28166 /* Build configuration list for PBXNativeTarget "JIRA id URL copy extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52ACB9D925652FD900B28166 /* Debug */,
@@ -754,29 +528,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52ACB9DC25652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title Copy" */ = {
+		52ACB9DC25652FD900B28166 /* Build configuration list for PBXNativeTarget "JIRA id URL copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52ACB9DD25652FD900B28166 /* Debug */,
 				52ACB9DE25652FD900B28166 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52ACB9DF25652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title CopyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52ACB9E025652FD900B28166 /* Debug */,
-				52ACB9E125652FD900B28166 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52ACB9E225652FD900B28166 /* Build configuration list for PBXNativeTarget "Jira Title CopyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52ACB9E325652FD900B28166 /* Debug */,
-				52ACB9E425652FD900B28166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

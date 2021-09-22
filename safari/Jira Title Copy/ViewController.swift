@@ -9,8 +9,8 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "Jira Title Copy"
-let extensionBundleIdentifier = "com.ionel71089.Jira-Title-Copy.Extension"
+let appName = "JIRA id URL copy"
+let extensionBundleIdentifier = "com.drancagrandtech.Jira-Github-ticket-url.Extension"
 
 class ViewController: NSViewController {
 

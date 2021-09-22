@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52ACB99025652FD700B28166"
-               BuildableName = "Jira Title Copy.app"
-               BlueprintName = "Jira Title Copy"
+               BuildableName = "JIRA id URL copy.app"
+               BlueprintName = "JIRA id URL copy"
                ReferencedContainer = "container:Jira Title Copy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52ACB99025652FD700B28166"
-            BuildableName = "Jira Title Copy.app"
-            BlueprintName = "Jira Title Copy"
+            BuildableName = "JIRA id URL copy.app"
+            BlueprintName = "JIRA id URL copy"
             ReferencedContainer = "container:Jira Title Copy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52ACB99025652FD700B28166"
-            BuildableName = "Jira Title Copy.app"
-            BlueprintName = "Jira Title Copy"
+            BuildableName = "JIRA id URL copy.app"
+            BlueprintName = "JIRA id URL copy"
             ReferencedContainer = "container:Jira Title Copy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
