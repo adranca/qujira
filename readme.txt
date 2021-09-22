@@ -1,4 +1,4 @@
-Used to automaticaly generate ticket id and URL pointing to that ticket for a JIRA page. The output is following [TICKET-ID](TicketURL). This can be helpful when opening a bitbucket/github ticket to add the ticket url in description. 
+Used to automaticaly generate ticket id and URL pointing to that ticket for a JIRA page. Simply CMD+C on any Jira page. The output saved in clipboard and follows the format [TICKET-ID](TicketURL). This can be helpful when opening a bitbucket/github ticket to add the ticket url in description. 
 
 Chrome
 
