@@ -1,3 +1,5 @@
+Used to automaticaly generate ticket id and URL pointing to that ticket for a JIRA page. The output is following [TICKET-ID](TicketURL). This can be helpful when opening a bitbucket/github ticket to add the ticket url in description. 
+
 Chrome
 
 https://developer.chrome.com/docs/extensions/mv2/faq/#faq-dev-01
@@ -14,3 +16,5 @@ https://developer.apple.com/documentation/safariservices/safari_app_extensions/b
 
 Build the xcode project in the "safari" folder
 Follow the guide to install the developer extension
+
+Thank you @ionel71089 for allowing me to update the project. 
